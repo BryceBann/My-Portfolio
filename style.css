@@ -1,0 +1,65 @@
+
+*{
+    background-color: var(--cream);
+    border: 3px black;
+    font-size: 20px;
+
+}
+
+:root{
+    --cream: rgb(230, 209, 171);
+}
+
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    height:126px;
+    
+}
+    
+h1{
+    background-color: black;
+    font-size: 99px;
+    
+}
+
+div a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    height:25%;
+    float: right;
+    position: relative; bottom: 97px;
+    font-size: 25px;
+    background-color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#pro{
+    display: inline;
+    position:relative; left:45%; bottom: 97px;
+    font-size: 18px;
+}
+
+p{  
+    background-color: black;
+    text-align: right;
+
+}
+
+.photo{
+    height: 25%;
+    width: 100%;
+    border: 2px black solid;
+   
+}
+
+.foot{
+    color: white;
+    background-color: black;
+    height: auto;
+    text-align: center;
+    height: 75px;
+    font-size: 45px;
+    
+}
