@@ -1,15 +1,19 @@
 
-*{
+body{
     background-color: var(--cream);
     border: 3px black;
     font-size: 20px;
+    
+}
 
+html{
+    font-size: 62.5%;
 }
 
 :root{
     --cream: rgb(230, 209, 171);
 }
-
+/* top of the page nav bar */
 header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -23,7 +27,7 @@ h1{
     
 }
 
-div a{
+.header .link{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     height:25%;
@@ -33,9 +37,10 @@ div a{
     background-color: black;
     margin-right: 15px;
     text-decoration: none;
+    
 }
 
-div a:hover{
+.header a:hover{
     background-color: white;
     color: black;
 }
@@ -47,20 +52,44 @@ div a:hover{
     background-color: black;
     text-align: right;
 }
-
+/*main family photo */
 #photo{
     height: 25%;
     width: 100%;
     border: 2px black solid;
    
 }
-
-#AboutMe h2,
-#Work h3{
-    color: white;
+/*About me section start */
+#AboutMe{
     background-color: black;
-    text-align: center;
-    font-size: 45px;
+    height: auto;
+    color: white;
+    width: 100%;
+}
+
+#page1{
+    background-color: black;
+    width: 100%;
+    
+}
+
+#intro{
+    background-color: black;
+    margin-top: -10px;
+}
+/*completed and in work progress*/
+.projects{
+    background-color: black;
+    color: white;
+}
+
+#github{
+    height: 25%;
+    width: 25%;
+    border: 2px white solid;
+    margin-left: 1%;
+    position: relative;
+    
 }
 
 .foot{
