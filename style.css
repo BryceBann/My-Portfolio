@@ -35,23 +35,32 @@ div a{
     text-decoration: none;
 }
 
+div a:hover{
+    background-color: white;
+    color: black;
+}
+
 #pro{
     display: inline;
     position:relative; left:45%; bottom: 97px;
     font-size: 18px;
-}
-
-p{  
     background-color: black;
     text-align: right;
-
 }
 
-.photo{
+#photo{
     height: 25%;
     width: 100%;
     border: 2px black solid;
    
+}
+
+#AboutMe h2,
+#Work h3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 45px;
 }
 
 .foot{
