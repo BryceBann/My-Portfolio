@@ -9,6 +9,7 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 /*Start of page header active UI link to webpage also having contact page to external page*/
@@ -75,9 +76,9 @@ a:active{
 
 .main-photo{
     height: 90%;
-    width: 50%;
+    width: auto;
     border: 2px white solid;
-    margin-left: 1rem;
+    margin-left: 5rem;
     margin-top: 1.5rem;
     border-radius: 1rem;
     box-shadow: .25rem .25rem grey;
@@ -95,7 +96,6 @@ div h2{
 
 div p{
     font-size: 1rem;
-    overflow: visible;
     width: 35rem;
 }
 
@@ -107,21 +107,30 @@ div p{
 
 .Work{
     background-color: black;
-    height: 22rem;
+    height: 51rem;
     width: auto;
     color: white;
     margin-top: 3rem;
 }
 
 .column{
-    width: 33.33333333%;
+    width: 50%;
     float: left;
-    
+}
+
+.firstPort img{
+    width: 50%;
+    height: 50%;
+    border: 2px white solid;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem grey;
+    margin-left: 18rem;
     
 }
 
 .column img{
-    width: 85%;
+    width: 75%;
     height: 15rem;
     border: 2px white solid;
     margin-top: 1rem;
@@ -151,8 +160,20 @@ div p{
     margin-left: 1.5rem;
 }
 
-.git-text, .port2-txt, .port3-txt{
+.git-text{
+width: fit-content;
+margin-left: 30rem;
+font-size: 2rem;
+}
+
+.port2-txt{
     margin-left: 10rem;
+    font-size: 2rem;
+} 
+
+.port3-txt{
+    margin-left: 10rem;
+    font-size: 2rem;
 }
 
 .Contact{
