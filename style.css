@@ -78,9 +78,11 @@ h1{
     margin-top: -10px;
 }
 /*completed and in work progress*/
+
 .projects{
     background-color: black;
     color: white;
+    
 }
 
 #github{
@@ -88,8 +90,25 @@ h1{
     width: 25%;
     border: 2px white solid;
     margin-left: 1%;
-    position: relative;
     
+}
+
+.img-text{
+    padding-left: 11%;
+    font-size: 25px; 
+}
+
+#stock-img{
+    height: 25%;
+    width: 25%;
+    border: 2px white solid;
+    margin-left: 1%;
+    
+}
+
+.stock-text{
+    padding-left: 7%;
+    font-size: 25px;
 }
 
 .foot{
