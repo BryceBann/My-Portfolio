@@ -1,122 +1,186 @@
+:root{
+    --main-body: rgb(240, 224, 190);
+}
 
 body{
-    background-color: var(--cream);
-    border: 3px black;
-    font-size: 20px;
-    
-}
-
-html{
+    background-color: var(--main-body);
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-:root{
-    --cream: rgb(230, 209, 171);
-}
-/* top of the page nav bar */
+/*Start of page header active UI link to webpage also having contact page to external page*/
+
 header{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    height:126px;
-    
-}
-    
-h1{
+    height: auto;
     background-color: black;
-    font-size: 99px;
-    
+    color: white;
 }
 
-.header .link{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    height:25%;
-    float: right;
-    position: relative; bottom: 97px;
-    font-size: 25px;
-    background-color: black;
-    margin-right: 15px;
+#header1{
+    display: inline;
+}
+
+#header1 h1{
+    display:inline;
+    font-size: 5rem; 
+}
+
+#header1 p{
+    display: inline;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+#header1 nav{
+   display: inline;
+   font-size: 1.5rem;
+   color: white;
+   margin-left: 5rem;
+   
+}
+
+.link{
+    padding: .2rem;
+}
+
+a:link{
     text-decoration: none;
-    
 }
 
-.header a:hover{
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
     background-color: white;
     color: black;
 }
 
-#pro{
-    display: inline;
-    position:relative; left:45%; bottom: 97px;
-    font-size: 18px;
-    background-color: black;
-    text-align: right;
+a:active{
+    text-decoration: none;
 }
-/*main family photo */
-#photo{
-    height: 25%;
+/*Strat of the main body of the page with main photo, about me, and experince*/
+.AboutMe{
+    background-color: black;
+    height: 30rem;
+    width: auto;
+    color: white;
+    margin-top: 3rem;
+}
+
+.main-photo{
+    height: 90%;
+    width: 50%;
+    border: 2px white solid;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem grey;
+}
+
+article{
+    float: right;
+}
+
+div h2{
+    font-size: 2.5rem;
+    position: relative;
+    margin-right: 25rem;
+}
+
+div p{
+    font-size: 1rem;
+    overflow: visible;
+    width: 35rem;
+}
+
+/*start of showing completed and to be completed projects*/
+
+#container{
     width: 100%;
-    border: 2px black solid;
+}
+
+.Work{
+    background-color: black;
+    height: 22rem;
+    width: auto;
+    color: white;
+    margin-top: 3rem;
+}
+
+.column{
+    width: 33.33333333%;
+    float: left;
+    
+    
+}
+
+.column img{
+    width: 85%;
+    height: 15rem;
+    border: 2px white solid;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem grey;
    
 }
-/*About me section start */
-#AboutMe{
+
+.git-link:hover{
     background-color: black;
-    height: auto;
+    
+}
+
+.toTop:hover{
+    background-color: black;
+}
+
+.git-photo{
+    margin-left: 1.5rem;
+}
+
+.port2-photo{
+    margin-left: 1.5rem;
+}
+
+.port3-photo{
+    margin-left: 1.5rem;
+}
+
+.git-text, .port2-txt, .port3-txt{
+    margin-left: 10rem;
+}
+
+.Contact{
+    background-color: black;
+    height: 12rem;
+    width: auto;
     color: white;
-    width: 100%;
+    margin-top: 3rem;
 }
 
-#page1{
-    background-color: black;
-    width: 100%;
-    
+.ContactInfo{
+    margin-top: -1rem;
 }
 
-#intro{
-    background-color: black;
-    margin-top: -10px;
+li{
+    font-size: 1.2rem;
 }
-/*completed and in work progress*/
 
-.projects{
+
+footer{
     background-color: black;
+    height: 5rem;
+    width: auto;
     color: white;
-    
+    margin-top: 3rem;
 }
 
-#github{
-    height: 25%;
-    width: 25%;
-    border: 2px white solid;
-    margin-left: 1%;
-    
-}
-
-.img-text{
-    padding-left: 11%;
-    font-size: 25px; 
-}
-
-#stock-img{
-    height: 25%;
-    width: 25%;
-    border: 2px white solid;
-    margin-left: 1%;
-    
-}
-
-.stock-text{
-    padding-left: 7%;
-    font-size: 25px;
-}
-
-.foot{
-    color: white;
-    background-color: black;
-    height: auto;
+footer h2{
+    font-size: 3rem;
     text-align: center;
-    height: 75px;
-    font-size: 45px;
-    
 }

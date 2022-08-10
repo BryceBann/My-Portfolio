@@ -3,70 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="./style.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" a href="./style.css">
 </head>
-
-<!--top of page nav bar and intro-->
 <body>
-<header id="top">
-    <div class="header">
-      <h1>Bryce Bann</h1>
-       <p id="pro">Coding and Fullstack Development</p>      
-       <a href="./Contact/Contact.html" class="link">Contact</a>
-       <a href=#Work class="link">Work</a>
-       <a href=#AboutMe class="link">About Me</a>
+<!--top of page including name current profession and active UI nav links-->
+    <header>
+        <div id="header1">
+        <h1>Bryce Bann</h1>
+        <p>Coding and fullstack development</p>
+        <nav>
+            <a href="#AboutMe" class="link">About Me</a>
+            <a href="#container" class="link">Work</a>
+            <a href="#container2" class="link">Contact Me</a>
+        </nav>
     </div>
-</header>
-
-<!--main page image -->
-<div class="photo">
-    <img src="./Images/Kids_Me.jpg" id="photo" alt="Family photo">
+    </header>
+    <!--main body of the webpage with about me info my current and past experince through coding-->
+<div>
+    <section class="AboutMe">
+        <img src="./Images/Kids_Me.jpg" class="main-photo">
+        <article id="AboutMe">
+            <div>
+                <h2>About Me</h2>
+                <p>filler lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto illum beatae ratione quidem. Quis veritatis, beatae quasi expedita, cumque vitae repudiandae
+                     officiis nulla similique neque libero fugiat eos iure est!</p>
+                     <h2>Experince</h2>
+                     <p>filler lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, facere totam? Enim molestiae consequuntur quae illo vero nisi corrupti quisquam expedita?
+                         Cupiditate, modi ad quae fugit culpa voluptatem excepturi dolor?</p>
+            </div>
+        </article>
+    </section>
+</div>
+<!--Work section to show all completed and in progess webpages and applcations with active links to current webpage and github repo-->
+<div id="container">
+    <section class="Work">
+    <div class="column">
+        <a href="https://github.com/BryceBann" target="_blank" class="git-link">
+        <img src="./Images/GitHub___headpic.webp" class="git-photo" alt="My git repo"></a>
+        <p class="git-text">My Github repo</p>
+    </div>
+    <div class="column">
+        <a href="#header1" class="toTop">
+        <img src="./Images/code_background2.webp" class="port2-photo" alt="Work in progress"></a>
+        <p class="port2-txt">Work in progress</p>
+    </div>
+    <div class="column">
+        <a href="#header1" class="toTop">
+        <img src="./Images/0_JVek3Y52-UUSyEdD.jfif" class="port3-photo" alt="Work in progress"></a>
+        <p class="port3-txt">Work in progress</p>
+    </div>
+    </section>
 </div>
 
-<!--About mw section and experince-->
-<div id="AboutMe">
-    <section id="page1">
-        <h3>About Me</h3>
-        <div id="intro">
-         <p>djfnbkjsbgkjzsjgncrizeyuxjbvkubxvkbxzicbrgjsbevjkxebjhvbz</p>
-        <h3>Experience</h3>
-         <p>rihjgusngusdflgiuduigdguieiuogbsidbgl</p>
-
+<div id="container2">
+    <section class="Contact">
+        <div class="ContactIntro">
+            <h2>Contact Me</h2>
+            <p class="ContactInfo">Feel free to contact me with any of the below options</p>
+            <ul>
+                <li>Phone: 615-347-3191</li>
+                <li>Email: punkrice@gmail.com </li>
+            </ul>
         </div>
-</section> 
+    </section>
 </div>
 
-        
 
-   <!--Work, completed projects/unfinished -->
-<div id="Work">
-    <section class="projects">
-        <h3>My Projects</h3>
-         <a href="https://github.com/BryceBann" class="my_hub" target="_blank">
-          <img src="./Images/GitHub___headpic.webp" alt="Github logo" id="github"></a>
-           <p class="img-text">Github</p>
-           <div id="unfinished">
-               <a href=#top><img src="./Images/0_JVek3Y52-UUSyEdD.jfif" alt="placeholder" id="stock-img"></a>
-                 <p class="stock-text">To Be completed</p>
-      
-     </section>
-</div>
-
-   
+    <footer>
+     <h2>Made with CSS and Coffee</h2>
+    </footer>
 
 
-
-<!--bottom of the page-->
-<section>
-    <footer><h2 class="foot">UwU</h1></footer>
-</section> 
 
 
 
 
 </body>
-
 </html>
