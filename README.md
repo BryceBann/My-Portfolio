@@ -5,11 +5,12 @@
 
 <p>I have built this webpage to help show my where I am currently as i begin coding and as well as my continued growth through the up coming months and years.</p>
 <br>
-![brycebann github io_My-Portfolio_](https://user-images.githubusercontent.com/109399715/184222174-c64b96a0-39e2-45d9-9524-ad8619df469b.png)
+<img src="Images/webpage.png">
 
 <p>This is a very simple build with added in quality of life features such as active links to direct to Githib repo and soon many finished and deployed applications and webpages.</p>
 <br>
 <p aligin="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
 ## Webpage abilities
 <p>As stated previously this web page has some quality of life features and more to come.</p>
@@ -24,9 +25,14 @@
 <li>Ability to send contact request by phone or email</li>
 <li>ACtive implemts of working code set into the webpage working calender, comment section, deployed application bug reporting etc.</li>
 <li>More active elements of the wevpage including Slide Show, active appliction in process funtions and more</li>
+<o aligin="right">(<a herf="#readme-top">back to top</a>)</p>
+<br>
 
 ## Common useage
+<p>This webpage will be the center of displaying all my abilities that I could potentily add to new team or future employer.</p>
+<p>This page will not shift to far away from hte core reason but do be prepaired for any side projects i find enterianing to be added the webpage</p>
 
 
 ## Road map
+<p>The end goal of the this page is to be profesional and on the for front of development and growth.</p>
 
