@@ -9,7 +9,7 @@
 
 <p>This is a very simple build with added in quality of life features such as active links to direct to Githib repo and soon many finished and deployed applications and webpages.</p>
 <br>
-<p aligin="right">(<a href="#readme-top">back to top</a>)</p>
+<p aligin="right">(<a href="#readme-top">Back to top</a>)</p><p aligin="right">(<a herf="https://github.com/BryceBann/My-Portfolio/issues">Report a bug</a>)</p>
 <br>
 
 ## Webpage abilities
@@ -25,7 +25,7 @@
 <li>Ability to send contact request by phone or email</li>
 <li>ACtive implemts of working code set into the webpage working calender, comment section, deployed application bug reporting etc.</li>
 <li>More active elements of the wevpage including Slide Show, active appliction in process funtions and more</li>
-<o aligin="right">(<a herf="#readme-top">back to top</a>)</p>
+<p aligin="right">(<a herf="#readme-top">back to top</a>)</p>
 <br>
 
 ## Common useage
@@ -36,3 +36,4 @@
 ## Road map
 <p>The end goal of the this page is to be profesional and on the for front of development and growth.</p>
 
+<p aligin="right">(<a herf="#readme-top">Back to top</a>)</p><p aligin="right">(<a herf="https://github.com/BryceBann/My-Portfolio/issues">Report a bug</a>)</p>
