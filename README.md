@@ -9,7 +9,7 @@
 
 <p>This is a very simple build with added in quality of life features such as active links to direct to Githib repo and soon many finished and deployed applications and webpages.</p>
 <br>
-<a href="#readme-top">Back to top</a> <a herf="https://github.com/BryceBann/My-Portfolio/issues">Report a bug</a>
+[Back to top](#aboutme-top) <a herf="https://github.com/BryceBann/My-Portfolio/issues">Report a bug</a>
 <br>
 
 ## Webpage abilities
