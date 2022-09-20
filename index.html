@@ -4,80 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" a href="./style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="styleSheet" a href="./Backend/style.css">
 </head>
 <body>
-<!--top of page including name current profession and active UI nav links-->
-    <header>
-        <div id="header1">
-        <h1>Bryce Bann</h1>
-        <p>Coding and full stack development</p>
-        <nav>
-            <a href="#AboutMe" class="link">About Me</a>
-            <a href="#container" class="link">Work</a>
-            <a href="#container2" class="link">Contact Me</a>
-        </nav>
+    <div class="container text-center mb-5">
+        <div class="row" id="header">
+          <div class="col-3">
+            <h1>Bryce Bann
+          </div>
+          <div class="col-5">
+            <p class="float-start">Coding and fullstack development</p>
+          </div>
+          <div class="col-4">
+            <nav id="nav">
+                <a href="#AboutMe" class="link">About Me</a>
+                <a href="#container" class="link">Work</a>
+                <a href="#container2" class="link">Contact Me</a>
+            </nav>
+          </div>
+        </div>
     </div>
-    </header>
-    <!--main body of the webpage with about me info my current and past experince through coding-->
-<div>
-    <section class="AboutMe">
-        <img src="./Images/Kids_Me.jpg" class="main-photo">
-        <article id="AboutMe">
-            <div>
+
+    <div class="container text-center mb-5">
+        <div class="row" id="aboutMe">
+            <div class="col p-3" id="kids-me">
+                <img src="./Images/Kids_Me.jpg" class="img-thumbnail" alt="Me&Kids" height="500px" width="500px">
+            </div>
+            <div class="col p-3" id="me">
                 <h2>About Me</h2>
                 <p>Born and raised in Nashville Tennessee currently embracing the moment to change careers to a path I have always had an interest in pursuing. Driven to learn and expand in the forever 
-                    the growing world of coding.</p>
-                     <h2>Experince</h2>
-                     <p>Like most people nowadays I took a simple HTML class in high school and have always found myself working through all types of coding practice.</p>
+                <h2>Experince</h2>
+                <p>Like most people nowadays I took a simple HTML class in high school and have always found myself working through all types of coding practice.</p>
             </div>
-        </article>
-    </section>
-</div>
-<!--Work section to show all completed and in progess webpages and applcations with active links to current webpage and github repo-->
-<div id="container">
-    <section class="Work">
-    <div class="firstPort">
-        <a href="https://github.com/BryceBann" target="_blank" class="git-link">
-        <img src="./Images/GitHub___headpic.webp" class="git-photo" alt="My git repo"></a>
-        <p class="git-text">My Github repo</p>
-    </div>
-    <div class="column">
-        <a href="https://brycebann.github.io/Secure-Password/" class="toTop">
-        <img src="./Images/file.jfif" class="port2-photo" alt="Password generator"></a>
-        <p class="port2-txt">Random password generator</p>
-    </div>
-    <div class="column">
-        <a href="https://tierney03.github.io/OneStop/" class="toTop">
-        <img src="./Images/OneStop.PNG" class="port3-photo" alt="Work in progress"></a>
-        <p class="port3-txt">OneStop</p>
-    </div>
-    </section>
-</div>
-
-<div id="container2">
-    <section class="Contact">
-        <div class="ContactIntro">
-            <h2>Contact Me</h2>
-            <p class="ContactInfo">Feel free to contact me at any of the below options</p>
-            <ul>
-                <li>Phone: 615-347-3191</li>
-                <li>Email: punkrice@gmail.com </li>
-            </ul>
         </div>
-    </section>
-</div>
+    </div>
 
+    <div class="container text-center mt-5 mb-5">
+        <div class="row" id="finishedProjects">
+            <div class="col p-3">
+                <a href="https://github.com/BryceBann" target="_blank" class="git-link">
+                    <img src="./Images/GitHub___headpic.webp" class="img-thumbnail" alt="My git repo" height="500px" width="500px"></a>
+                    <p class="git-text">My Github repo</p>
+            </div>
+            <div class="col p-3">
+                <a href="https://brycebann.github.io/Secure-Password/" class="toTop">
+                    <img src="./Images/file.jfif" class="img-thumbnail" alt="Password generator" height="500px" width="500px"></a>
+                    <p class="port2-txt">Random password generator</p>
+            </div>
+            <div class="col p-3">
+                <a href="https://tierney03.github.io/OneStop/" class="toTop">
+                    <img src="./Images/OneStop.PNG" class="img-thumbnail" alt="OneStop" height="500px" width="500px"></a>
+                    <p class="port3-txt">OneStop</p>
+            </div>
+        </div>
+    </div>
 
-    <footer>
-     <h2>Made with CSS and Coffee</h2>
-    </footer>
+    <div class="container text-center mt-5">
+        <div class="row" id="contactInfo">
+            <div class="col">
+                <h1>Contact Me here</h1>
+                <p>Phone: 615-347-3191</p>
+                <p>Email: punkrice@gmail.com</p>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
+<div class="row text-center" id="footer">
+    <div class="col">
+        <h1>Made with CSS and coffee</h1>
+    </div>
+</div>   
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="./Backend/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,80 @@
+:root{
+    --main-body: rgb(240, 224, 190);
+    --content: 	rgb(0,0,0);
+
+}
+
+body{
+    background-color: var(--main-body);
+    font-size: 125%;
+}
+
+#header{
+    background-color: var(--content);
+    color: ghostwhite;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#header h1{
+    font-size: 60px;
+}
+
+#header p{
+    margin-top: 6%;
+}
+
+#nav{
+    margin-top: 8%;
+}
+
+a:link {
+    text-decoration: none;
+    color: ghostwhite;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: ghostwhite;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: ghostwhite;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: ghostwhite;
+  }
+#aboutMe{
+    background-color: var(--content);
+    color: ghostwhite;
+    border-radius: 10px;
+}
+
+#finishedProjects{
+    background-color: var(--content);
+    color: ghostwhite;
+    border-radius: 10px;
+}
+
+#contactInfo{
+    background-color: var(--content);
+    color: ghostwhite;
+    border-radius: 10px;
+}
+
+#footer{
+    background-color: black;
+    height: 5rem;
+    width: auto;
+    color: white;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 338px) {
+    .link{
+        font-size: 117%;
+    }
+}
